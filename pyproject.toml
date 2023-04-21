@@ -1,0 +1,28 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kp-gscapi"
+version = "1.0.0"
+description = "Custom wrapper for Google Search Console API"
+readme = "README.md"
+authors = [{ name = "Kenny", email = "hi@anhtrinh.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feed", "reader", "tutorial"]
+dependencies = [
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+
+[project.urls]
+Homepage = "https://github.com/kp9z"
+
+[project.scripts]
+realpython = "reader.__main__:main"
